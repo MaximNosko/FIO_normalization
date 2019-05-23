@@ -2,7 +2,7 @@
 
 ### Папка "[client](https://github.com/MaximNosko/FIO_normalization/tree/master/client)":
 
-Содержит NPM-приложение, запускаемое файлов s.cmd
+Содержит NPM-приложение, запускаемое скриптом s.cmd
 
 Приложение представляет из себя одностраничное веб-приложение, написанное с использованием React вместе с Material UI и jQuery
 
