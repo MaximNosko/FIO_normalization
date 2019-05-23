@@ -100,7 +100,7 @@ function shablon_f(txt,m) //основная функция, возвращаю�
 
 class KnopkaFilter extends Component
 {
-	mymethod(e)
+	mymethod(e)//убирает все строки, относящиеся к классу, соответствующему ошибке
 	{
 		$('.oshybka').remove();
 	};
@@ -114,7 +114,7 @@ class KnopkaFilter extends Component
 
 class KnopkaSort extends Component
 {
-	mymethod(e)
+	mymethod(e)//производит сортировку по содержимому
 	{
 		var m= document.getElementsByClassName("zapis");
 		m = Array.prototype.slice.call(m);
@@ -135,7 +135,7 @@ class KnopkaSort extends Component
 
 class KnopkaSortObr extends Component
 {
-	mymethod(e)
+	mymethod(e)//производит сортировку по содержимому в обратном порядке
 	{
 		var m= document.getElementsByClassName("zapis");
 		m = Array.prototype.slice.call(m);
@@ -156,7 +156,7 @@ class KnopkaSortObr extends Component
 
 class KnopkaSpravka extends Component
 {
-	mymethod(e)
+	mymethod(e)//вставляет в контейнер для результатов справочную информацию
 	{
 		var t = document.getElementById("rez_div");
 		t.innerHTML="Пример имени: Михаил Владимирович Петров<br>";
