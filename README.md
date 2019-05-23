@@ -1,6 +1,6 @@
 # Веб-интерфейс для сервиса нормализации списка ФИО
 
-### Папка "client":
+### Папка "[client](https://github.com/MaximNosko/FIO_normalization/tree/master/client)":
 
 содержит NPM-приложение, запускаемое файлов s.cmd
 
@@ -11,7 +11,7 @@
 * NPM
 * Node.js
 
-### Папка "server":
+### Папка "[server](https://github.com/MaximNosko/FIO_normalization/tree/master/server)":
 
 Содержит Python-скрипт для запуска сервера и библиотеку [Algorithm_FIO](https://github.com/AnnaBuchneva/Algorithm_FIO)
 
